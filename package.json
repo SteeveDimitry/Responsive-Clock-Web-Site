@@ -1,0 +1,22 @@
+{
+  "name": "clock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SteeveDimitry/Clock.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SteeveDimitry/Clock/issues"
+  },
+  "homepage": "https://github.com/SteeveDimitry/Clock#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
