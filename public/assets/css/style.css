@@ -7,8 +7,8 @@
 :root {
     /*========== Colors ==========*/
 
-    /* --hue-color: 240; */
-    --hue-color: 158;
+    --hue-color: 240;
+    /* --hue-color: 158; */
 
     --first-color: hsl(var(--hue-color), 53%, 49%);
     --title-color: hsl(var(--hue-color), 53%, 15%);
