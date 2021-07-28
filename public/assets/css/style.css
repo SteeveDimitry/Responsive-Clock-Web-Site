@@ -299,6 +299,7 @@ a {
 }
 
 header {
+    color: var(--title-color);
     position: absolute;
     right: 40%;
     top: 10%;
