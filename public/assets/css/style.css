@@ -297,3 +297,11 @@ a {
         margin-bottom: 3rem;
     }
 }
+
+header {
+    position: absolute;
+    right: 40%;
+    top: 10%;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
