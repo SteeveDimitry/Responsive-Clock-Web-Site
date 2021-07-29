@@ -8,6 +8,7 @@
     /*========== Colors ==========*/
 
     --hue-color: 240;
+    /* --hue-color: 158; */
 
     --first-color: hsl(var(--hue-color), 53%, 49%);
     --title-color: hsl(var(--hue-color), 53%, 15%);
@@ -294,29 +295,5 @@ a {
 
     .clock__logo {
         margin-bottom: 3rem;
-    }
-}
-
-header {
-    color: var(--title-color);
-    position: absolute;
-    right: 46%;
-    top: 5%;
-    font-size: 1rem;
-    font-weight: 500;
-}
-
-@media screen and (max-width: 768px) {
-    header {
-        font-size: 1.5rem;
-        right: 36%;
-    }
-}
-
-@media screen and (max-width: 414px) {
-    header {
-        font-size: 1rem;
-        right: 30%;
-        top: 4%;
     }
 }
