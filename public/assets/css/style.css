@@ -196,7 +196,6 @@ a {
     position: absolute;
     display: flex;
     justify-content: center;
-    transition: all 0.3s ease;
 }
 
 .clock__hour {
