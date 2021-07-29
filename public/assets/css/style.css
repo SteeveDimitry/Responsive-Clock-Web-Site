@@ -308,32 +308,8 @@ header {
 
 @media screen and (max-width: 768px) {
     header {
-        font-size: 2rem;
-        right: 34%;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    header {
-        font-size: 1rem;
-        right: 30%;
-        top: 3%;
-    }
-}
-
-@media screen and (max-width: 360px) {
-    header {
-        font-size: 1rem;
-        right: 30%;
-        top: 4%;
-    }
-}
-
-@media screen and (max-width: 411px) {
-    header {
-        font-size: 1rem;
-        right: 30%;
-        top: 1%;
+        font-size: 1.5rem;
+        right: 36%;
     }
 }
 
