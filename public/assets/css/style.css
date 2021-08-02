@@ -2,11 +2,13 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
 
+/*=============== VARIABLES CSS ===============*/
 
 :root {
+    /*========== Colors ==========*/
 
-    /* --hue-color: 240; */
-    --hue-color: 158;
+    --hue-color: 240;
+    /* --hue-color: 158; */
 
     --first-color: hsl(var(--hue-color), 53%, 49%);
     --title-color: hsl(var(--hue-color), 53%, 15%);
@@ -15,18 +17,26 @@
     --white-color: #FFF;
     --body-color: hsl(var(--hue-color), 24%, 94%);
 
+    /*========== Font and typography ==========*/
+
     --body-font: 'Poppins', sans-serif;
     --biggest-font-size: 3rem;
     --small-font-size: .813rem;
     --smaller-font-size: .75rem;
     --tiny-font-size: .625rem;
 
+    /*========== Font weight ==========*/
+
     --font-medium: 500;
+
+    /*========== Margenes Bottom ==========*/
 
     --mb-0-25: .25rem;
     --mb-1: 1rem;
     --mb-1-5: 1.5rem;
     --mb-2-5: 2.5rem;
+
+    /*========== z index ==========*/
 
     --z-normal: 1;
     --z-tooltip: 10;
@@ -41,11 +51,16 @@
     }
 }
 
+/*========== Variables Dark theme ==========*/
+
 body.dark-theme {
     --title-color: hsl(var(--hue-color), 12%, 95%);
     --text-color: hsl(var(--hue-color), 12%, 75%);
     --body-color: hsl(var(--hue-color), 10%, 16%);
 }
+
+
+/*========== Button Dark/Light ==========*/
 
 .clock__theme {
     position: absolute;
@@ -60,6 +75,8 @@ body.dark-theme {
     cursor: pointer;
 }
 
+/*========== Box shadow Dark theme ==========*/
+
 .dark-theme .clock__circle {
     box-shadow: 6px 6px 16px hsla(var(--hue-color), 8%, 12%, 1),
         -6px -6px 16px hsla(var(--hue-color), 8%, 20%, 1),
@@ -71,6 +88,8 @@ body.dark-theme {
     box-shadow: inset -1px -1px 1px hsla(var(--hue-color), 8%, 20%, 1),
         inset 1px 1px 1px hsla(var(--hue-color), 8%, 12%, 1);
 }
+
+/*=============== BASE ===============*/
 
 * {
     box-sizing: border-box;
@@ -89,6 +108,8 @@ a {
     text-decoration: none;
 }
 
+/*=============== REUSABLE CSS CLASSES ===============*/
+
 .container {
     max-width: 968px;
     margin-left: var(--mb-1);
@@ -98,6 +119,8 @@ a {
 .grid {
     display: grid;
 }
+
+/*=============== CLOCK ===============*/
 
 .clock__container {
     height: 100vh;
