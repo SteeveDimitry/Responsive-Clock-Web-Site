@@ -255,6 +255,16 @@ a {
     font-weight: var(--font-medium);
 }
 
+::selection {
+    background-color: var(--first-color);
+    background: #f1f2f3;
+}
+
+::-moz-selection {
+    background-color: var(--first-color);
+    background: #f1f2f3;
+}
+
 /* For large devices */
 @media screen and (min-width: 968px) {
     .container {
