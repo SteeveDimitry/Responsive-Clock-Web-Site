@@ -257,12 +257,12 @@ a {
 
 ::selection {
     background-color: var(--first-color);
-    background: #f1f2f3;
+    color: #f1f2f3;
 }
 
 ::-moz-selection {
     background-color: var(--first-color);
-    background: #f1f2f3;
+    color: #f1f2f3;
 }
 
 /* For large devices */
