@@ -40,6 +40,7 @@ body.dark-theme {
     --title-color: hsl(var(--hue-color), 12%, 95%);
     --text-color: hsl(var(--hue-color), 12%, 75%);
     --body-color: hsl(var(--hue-color), 10%, 16%);
+    user-select: none;
 }
 
 .clock__theme {
@@ -78,6 +79,7 @@ body {
     font-family: var(--body-font);
     background-color: var(--body-color);
     color: var(--text-color);
+    user-select: none;
 }
 
 a {
@@ -253,16 +255,6 @@ a {
     text-align: center;
     font-size: var(--small-font-size);
     font-weight: var(--font-medium);
-}
-
-::selection {
-    background-color: var(--first-color);
-    color: #f1f2f3;
-}
-
-::-moz-selection {
-    background-color: var(--first-color);
-    color: #f1f2f3;
 }
 
 /* For large devices */
